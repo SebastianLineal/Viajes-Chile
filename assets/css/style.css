@@ -1,5 +1,13 @@
 .navbar {
-    background: transparent;
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+.navbar.scrolled {
+    background: #e6e6e6e0; /* IE */
+    background: #e6e6e6e0; /* NON-IE */
 }
 .border-bottom {
     color:aliceblue;
